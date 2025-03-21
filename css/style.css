@@ -70,13 +70,13 @@ body {
 .dropdown-menu {
     display: none;
     position: fixed;
-    top: 58%; 
-    left: 82%;
+    top: 70%; 
+    left: 82.4%;
     transform: translate(-50%, -50%);
-    background-color: #ffffff;
-    border-radius: 8px;
+    background-color: #f8f8f8;
+    border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px 0px;
-    padding: 10px;
+    padding: 3px;
     z-index: 10;
     text-align: center;
 }
@@ -102,18 +102,22 @@ body {
 
 /* Estilo para o card-menu */
 .card-menu {
-    width: 150px;  /* Tamanho fixo do card */
+    width: 140px;  /* Tamanho fixo do card */
     height: 30px; /* Tamanho fixo do card */
     position: relative;
-    border-radius: 20px; /* Rouded corners */
+    border-radius: 25px; /* Rouded corners */
     overflow: hidden; /* Impede que o conteúdo extra apareça */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #FFFFFF;
+    margin: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
 }
 
 .card-menu .card-img {
-    width: 60%;
+    width: 85%;
     height: auto;
     object-fit: cover;
+    padding: 10px;
     
 }
 

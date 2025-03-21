@@ -73,7 +73,7 @@ body {
     top: 70%; 
     left: 82.4%;
     transform: translate(-50%, -50%);
-    background-color: #f8f8f8;
+    background-color: #FFFFFF;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px 0px;
     padding: 3px;
@@ -105,7 +105,7 @@ body {
     width: 140px;  /* Tamanho fixo do card */
     height: 30px; /* Tamanho fixo do card */
     position: relative;
-    border-radius: 25px; /* Rouded corners */
+    border-radius: 10px; /* Rouded corners */
     overflow: hidden; /* Impede que o conteúdo extra apareça */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     background-color: #FFFFFF;

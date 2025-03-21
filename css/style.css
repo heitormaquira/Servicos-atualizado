@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+body {
+    background-color: #f8f8f8;
+    font-family: 'Merriweather Sans', sans-serif;
+    overflow-x: hidden; 
+}
+
+.container {
+    max-width: 97%;
+    padding: 0; 
+}
+
+.card {
+    border-radius: 20px; 
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+    height: 130px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.card-body {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+}
+
+.card-title {
+    color: #929292; 
+    margin: 0; 
+    transition: color 0.3s ease; 
+    text-decoration: none; 
+    font-size: 1.5rem; 
+    font-family: 'Lato', sans-serif;
+}
+
+.card-img {
+    border-radius: 0; 
+    width: 100px; 
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.02); 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10); 
+}
+
+.card:hover .card-title {
+    color: #0000a0; 
+}
+
+.card:hover .card-img {
+    transform: scale(1.05); /* Aumenta a imagem suavemente ao passar o mouse */
+}
+
+/* Esconde o menu inicialmente */
+.dropdown-menu {
+    display: none;
+    position: fixed;
+    top: 58%; 
+    left: 82%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px 0px;
+    padding: 10px;
+    z-index: 10;
+    text-align: center;
+}
+
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.dropdown-menu .dropdown-item img {
+    width: 120px;
+    height: auto; 
+    object-fit: contain;
+}
+
+.card-img, .dropdown-item img {
+    user-select: none;
+}
+
+.card-title, .dropdown-item, .card-body {
+    user-select: none;
+}
+
+/* Estilo para o card-menu */
+.card-menu {
+    width: 150px;  /* Tamanho fixo do card */
+    height: 30px; /* Tamanho fixo do card */
+    position: relative;
+    border-radius: 20px; /* Rouded corners */
+    overflow: hidden; /* Impede que o conteúdo extra apareça */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-menu .card-img {
+    width: 60%;
+    height: auto;
+    object-fit: cover;
+    
+}
+
+/* Efeito de hover no card-menu */
+.card-menu:hover {
+    transform: scale(1.02); /* Aumenta a imagem */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra para o efeito de hover */
+}

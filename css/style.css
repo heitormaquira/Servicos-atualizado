@@ -14,7 +14,7 @@
 }
 
 body {
-    background-color: #f8f8f8;
+    background-color: #ffffff;
     font-family: 'Merriweather Sans', sans-serif;
     overflow-x: hidden; 
 }
@@ -70,9 +70,9 @@ body {
 .dropdown-menu {
     display: none;
     position: fixed;
-    top: 52.5%; 
+    top: 53%; 
     left: 85.3%;
-    background-color: #f9f9f9;
+    background-color: #fbfbfb;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px 0px;
     padding: 3px;

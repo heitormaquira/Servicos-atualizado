@@ -70,11 +70,11 @@ body {
 .dropdown-menu {
     display: none;
     position: fixed;
-    top: 53%; 
-    left: 85.3%;
+    top: 53.5%; 
+    left: 85.2%;
     background-color: #fbfbfb;
     border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px 0px;
     padding: 3px;
     z-index: 10;
     text-align: center;
@@ -124,7 +124,7 @@ body {
 /* Efeito de hover no card-menu */
 .dropdown-menu .card-menu:hover {
     transform: scale(1.02); /* Aumenta a imagem */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Sombra para o efeito de hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Sombra para o efeito de hover */
 }
 
 

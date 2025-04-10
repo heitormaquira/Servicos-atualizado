@@ -27,7 +27,7 @@ body {
 .card {
     border-radius: 20px; 
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
-    height: 130px; 
+    height: 110px; 
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
@@ -48,7 +48,7 @@ body {
 
 .card-img {
     border-radius: 0; 
-    width: 100px; 
+    width: 80px; 
     height: auto;
     transition: transform 0.3s ease;
 }
@@ -70,10 +70,10 @@ body {
 .dropdown-menu {
     display: none;
     position: fixed;
-    top: 53.5%; 
-    left: 85.2%;
-    background-color: #fbfbfb;
-    border-radius: 15px;
+    top: 52.7%; 
+    left: 85.6%;
+    background-color: #fcfcfc;
+    border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px 0px;
     padding: 3px;
     z-index: 10;
@@ -103,7 +103,7 @@ body {
 /* Estilo para o card-menu */
 .card-menu {
     width: 140px;  /* Tamanho fixo do card */
-    height: 30px; /* Tamanho fixo do card */
+    height: 25px; /* Tamanho fixo do card */
     position: relative;
     border-radius: 10px; /* Rouded corners */
     overflow: hidden; /* Impede que o conteúdo extra apareça */

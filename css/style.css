@@ -105,7 +105,7 @@ body {
     width: 140px;  /* Tamanho fixo do card */
     height: 25px; /* Tamanho fixo do card */
     position: relative;
-    border-radius: 10px; /* Rouded corners */
+    border-radius: 8px; /* Rouded corners */
     overflow: hidden; /* Impede que o conteúdo extra apareça */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     background-color: #FFFFFF;
